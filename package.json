@@ -1,0 +1,33 @@
+{
+  "name": "d3-example",
+  "version": "1.0.0",
+  "description": "D3 Example",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domadams/d3-example.git"
+  },
+  "keywords": [
+    "D3",
+    "Node"
+  ],
+  "author": "Dominic Adams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domadams/d3-example/issues"
+  },
+  "homepage": "https://github.com/domadams/d3-example#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.5.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
